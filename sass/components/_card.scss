@@ -10,6 +10,7 @@
         top: 0;
         left: 0;
         width: 100%;
+        -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
         border-radius: 3px;
         overflow: hidden;
@@ -132,11 +133,9 @@
         &:hover &__side--front {
             transform: rotateY(0);
         }
-
         &__details {
             padding: 1rem 3rem;
         }
-
         &__cta {
             position: relative;
             top: 0%;
